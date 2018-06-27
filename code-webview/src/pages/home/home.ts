@@ -10,7 +10,7 @@ export class HomePage {
   url: any;
   constructor(private sanitize: DomSanitizer) {}
   urlpaste(){
-    this.url = "http://pagandu.com/";
+    this.url = "https://responsivedesign.is/examples/";
     return this.sanitize.bypassSecurityTrustResourceUrl(this.url);
   }
 }
